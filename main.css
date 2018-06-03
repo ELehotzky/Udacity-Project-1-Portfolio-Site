@@ -20,6 +20,13 @@ body {
 	max-width: 60%;
 }
 
-ul {
-	list-style-type: none;
+.featured {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 100%;
+}
+
+.featured-pic {
+	max-width: 50%;
 }
