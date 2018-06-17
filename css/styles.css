@@ -7,6 +7,11 @@
 	#a5d0a8
 */
 
+html {
+	font-family: "Montserrat", sans-serif;
+	color: #464655;
+}
+
 body {
 	margin: 0;
 	padding: 10px;
@@ -44,31 +49,35 @@ h2 {
 }
 
 .featured {
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	flex-direction: row;
+	height: auto;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
 
-.featured-pic1 {
-	width: 33%;
-	padding: 10px;
-}
-
-.featured-pic2 {
-	max-width: 33%;
-	padding: 10px;
-}
-
-.featured-pic3 {
-	max-width: 33%;
-	padding: 10px;
+.featured-pic {
+	max-width: 100%;
+	margin: 10px;
 }
 
 .footer {
 	width: 100%;
 	text-align: center;
+}
+
+a {
+	color: #464655;;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8C271E
 }
 
 .fab {
