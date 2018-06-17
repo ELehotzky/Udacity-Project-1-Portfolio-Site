@@ -51,16 +51,20 @@ h2 {
 .featured {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-	height: auto;
 	text-align: center;
+	width: 100%;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 }
 
 .featured-pic {
+	max-width: 33%;
+	margin: 30px;
+}
+
+.responsive {
 	max-width: 100%;
-	margin: 10px;
+	height: auto;
 }
 
 .footer {
@@ -83,3 +87,5 @@ a:hover {
 .fab {
 	padding: 5px;
 }
+
+@media screen and (max-width: 860px)
